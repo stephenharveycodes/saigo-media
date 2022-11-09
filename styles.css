@@ -6,7 +6,7 @@
 }
 
 .navbar {
-  background: #131313;
+  background: #fff
   height: 80px;
   display: flex;
   justify-content: center;
@@ -28,7 +28,8 @@
   padding: 0 50px;
 }
 
-#navbar__logo {
+/* Styling for Typed logo */
+/* #navbar__logo {
   background-color: #7003fb;
   background-image: linear-gradient(to top, #e230ff 0%, #7003fb 100%);
   background-size: 100%;
@@ -40,7 +41,7 @@
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2rem; */
 }
 
 .fa-gem {
@@ -123,11 +124,11 @@
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
-    background: #131313;
+    background: #fff;
   }
 
   .navbar__menu.active {
-    background: #131313;
+    background: #fff;
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -145,7 +146,7 @@
     height: 3px;
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
-    background: #fff;
+    background: #7003fb;
   }
 
   .navbar__item {
